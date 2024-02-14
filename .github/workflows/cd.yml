@@ -25,6 +25,6 @@ jobs:
         key: ${{ secrets.PRIVATE_KEY }}
         port: 22
         script: |
-          cd ~/home/praveen
+          cd /home/ubuntu
           git pull origin main
           git status
